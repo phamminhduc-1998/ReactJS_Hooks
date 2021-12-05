@@ -8,7 +8,7 @@
  * - Chỉ gọi callback 1 lần sau khi component mounted
  * 3: useEffect(callbacks, [dependency])
  * - callback sẽ được gọi lại mỗi khi dependency thay đổi
- * ------------------------------------- -----------------
+ * ------------------------------------------------------
  * note 
  * Callback luôn được gọi khi component mounted
  * Cleanup function luôn được gọi lại trước khi component unmounted
