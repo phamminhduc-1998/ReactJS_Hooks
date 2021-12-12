@@ -8,7 +8,9 @@ import UseRefHook from './components/useRefHook'
 import React_memoHOC from './components/react_memoHOC'
 import UseCallbackHook from './components/useCallbackHook'
 import UseMemoHook from './components/useMemoHook'
-
+import UseReducerHook from './components/useReducerHook'
+import TodoAppWithUseReducerHook from './components/todoAppWithUseReducerHook'
+import UseContextHook from './components/useContextHook'
 
 
 function App() {
@@ -36,7 +38,10 @@ function App() {
       {/* <h1>{count}</h1>
       <UseCallbackHook onIncrease={handleCount} /> */}
       {/* <UseMemoHook /> */}
-      
+      {/* <UseReducerHook /> */}
+      {/* <TodoAppWithUseReducerHook/> */}
+      <UseContextHook/>
+
     </div>
   );
 }
